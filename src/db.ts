@@ -1,7 +1,8 @@
-import todos from "./todos.json"
+import todos from "./todos.json";
+
 export interface DbItem {
-  task:string,
-  done:boolean,
+  task: string;
+  done: boolean;
 }
 
 export interface DbItemWithId extends DbItem {
@@ -25,7 +26,7 @@ export const addDummyDbItems = (n: number): DbItemWithId[] => {
     const createdTodo = addDbItem({
       // possibly add some generated data here
       task: todos[count].task,
-      done: todos[count].done
+      done: todos[count].done,
     });
     createdToDos.push(createdTodo);
   }
