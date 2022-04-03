@@ -1,26 +1,26 @@
- [{
-    "task": "HTML ",
+[
+  {
+    "task": "cleaned room ",
     "done": true
-},
-{
-    "task": "CSS",
-    "done": true
-},
-{
-    "task": "Responsive design",
-    "done": true
-},
-{
-    "task": "Git",
-    "done": true
-},
-{
-    "task": "JavaScript",
-    "done": true
-},
-{
-    "task": "React",
+  },
+  {
+    "task": "do homeword",
     "done": false
-}
+  },
+  {
+    "task": "make lunch",
+    "done": true
+  },
+  {
+    "task": "run",
+    "done": true
+  },
+  {
+    "task": "take a nap",
+    "done": true
+  },
+  {
+    "task": "mow lawn",
+    "done": false
+  }
 ]
-
