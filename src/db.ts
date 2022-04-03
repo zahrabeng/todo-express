@@ -20,16 +20,16 @@ let idCounter = 0;
  * @returns the created items
  */
 export const addDummyDbItems = (n: number): DbItemWithId[] => {
-  const createdSignatures: DbItemWithId[] = [];
-  for (let count = 0; count < n; count++) {
-    const createdSignature = addDbItem({
+  const createdToDos: DbItemWithId[] = [];
+  for (let count = 0; count < todos.length; count++) {
+    const createdTodo = addDbItem({
       // possibly add some generated data here
-      task: todos[0].task, 
-      done: todos[0].done
+      task: todos[count].task,
+      done: todos[count].done
     });
-    createdSignatures.push(createdSignature);
+    createdToDos.push(createdTodo);
   }
-  return createdSignatures;
+  return createdToDos;
 };
 
 /**
