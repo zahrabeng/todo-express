@@ -1,5 +1,7 @@
+import todos from "./todos.json"
 export interface DbItem {
-  // sketch out interface here
+  task:string,
+  done:boolean,
 }
 
 export interface DbItemWithId extends DbItem {
@@ -22,6 +24,8 @@ export const addDummyDbItems = (n: number): DbItemWithId[] => {
   for (let count = 0; count < n; count++) {
     const createdSignature = addDbItem({
       // possibly add some generated data here
+      task: todos[0].task, 
+      done: todos[0].done
     });
     createdSignatures.push(createdSignature);
   }
