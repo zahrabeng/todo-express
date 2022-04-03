@@ -1,5 +1,5 @@
  [{
-    "task": "HTML I",
+    "task": "HTML ",
     "done": true
 },
 {
@@ -15,11 +15,11 @@
     "done": true
 },
 {
-    "task": "JavaScript I",
+    "task": "JavaScript",
     "done": true
 },
 {
-    "task": "JavaScript II",
+    "task": "React",
     "done": false
 }
 ]
